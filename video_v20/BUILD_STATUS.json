@@ -1,0 +1,38 @@
+{
+  "version": "V20 video experiment",
+  "built_at": "2026-10-17T23:09:52.49672+08:00",
+  "source_mp4_converted": true,
+  "td_build_passed": true,
+  "setup_wns_ns": 0.12,
+  "hold_wns_ns": 0.004,
+  "resources": {
+    "lut": {
+      "used": 7938,
+      "available": 19600
+    },
+    "reg": {
+      "used": 3523,
+      "available": 19600
+    },
+    "bram": {
+      "used": 48,
+      "available": 64
+    },
+    "dsp": {
+      "used": 15,
+      "available": 29
+    }
+  },
+  "external_io_timing_note": "Existing V19 pin/clock constraints retained; unconstrained external I/O are not an end-to-end hardware guarantee.",
+  "bit_sha256": "7596165f328909ec1f1f3ffe49e36a94f708c39880c119b194ae7722bbb5e470",
+  "sram_downloaded": true,
+  "video_hardware_result": "User confirmed both clips play with normal moving picture and soundtrack.",
+  "flash_written_for_video": false,
+  "flash_backup": "E:/FPGA/TD_6.2.1_SP1_178840_NL/competition/backup_v19_before_video_20261017",
+  "flash_backup_sha256": "fe1e04350cf98547313e3d8aef078a55eb4a49becb683e2e10d0889a9b2a170c",
+  "sram_downloaded_at": "2026-10-17T23:10:49.6053866+08:00",
+  "sram_download_log": "download_sram.log",
+  "user_confirmation_date": "2026-10-18 Asia/Shanghai",
+  "user_confirmation_text": "两段都能播放，画面和伴音正常",
+  "validation_scope": "Both clips observed on the board after SRAM download; uninterrupted full-length looping has not been separately reported."
+}

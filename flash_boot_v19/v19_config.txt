@@ -1,0 +1,64 @@
+
+CTRL
+      signal name        bit index    default value    current value  
+        hswapen             31              0                0        
+     osc_freq_div          30:26          00000            00000      
+   done_pin_override        25              0                0        
+       done_pupb            24              1                1        
+      active_done           23              0                0        
+   init_pin_override        22              0                0        
+       init_pupb            21              0                0        
+     init_pin_low           20              0                0        
+     done_overload         19:18           00               00        
+       security             17              0                0        
+  ghighb_single_pulse       16              1                1        
+     auto_clear_en          15              0                0        
+     freeze_io_en           14              0                0        
+     freeze_mib_en          13              0                0        
+      persist_bit           12              0                0        
+      short_delay           11              0                0        
+      vccmreg_en            10              1                1        
+     goe_gsr_high            9              0                0        
+     global_crc_en           8              1                1        
+     ghighb_clear            7              0                0        
+    cfg_disram_msk           6              0                0        
+   dsr_wt_dly_cycle         5:4            00               00        
+      debug_mode             3              0                0        
+      jtag8_mode             2              0                0        
+       jtag8_hs              1              0                0        
+    osc_clk_dis_opt          0              0                0        
+
+
+STARTUP
+     signal name       bit index    default value    current value  
+  osc_freq_div2pib       31:27          11010            11010      
+  pll_regulator_en       26:23          0000             0010       
+      vccm_wait           22              0                0        
+  wakeup_clk_sel_cr      21:20           11               11        
+    syn_ext_done          19              0                0        
+      lock_wait          18:15          0000             0000       
+     done_cycle          14:12           100              100       
+      goe_cycle          11:9            101              101       
+      gsr_cycle           8:6            110              110       
+      gwd_cycle           5:3            110              110       
+     usr_gsrn_en           2              0                0        
+    gsrn_sync_sel          1              0                0        
+    mult_boot_en           0              0                0        
+
+
+TRIM
+     signal name       bit index    default value    current value  
+         na1             31:28          0000             0000       
+         na2             27:26           00               00        
+    OSC Freq Trim        25:20         000000           000000      
+    sg12_bgvtrim         19:16          0000             0000       
+  LVDSi R100 trim h       15              0                0        
+   sg12_bgvtrim_h         14              0                0        
+    sg12_bgitrim         13:9           00000            00000      
+     VCCM Ishunt           8              0                0        
+      VCCM Cap             7              0                0        
+     VCCM Level           6:5            01               01        
+    VCCM Ishunt h          4              1                1        
+    VCCAPLL Level         3:2            10               10        
+   LVDSi R100 trim        1:0            00               00        
+

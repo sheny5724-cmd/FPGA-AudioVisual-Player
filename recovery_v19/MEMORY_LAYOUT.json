@@ -1,0 +1,32 @@
+{
+  "unit": "32-bit word",
+  "arena_words": 1482752,
+  "guard_words": 2048,
+  "image_physical_inclusive": [
+    [
+      0,
+      307199
+    ],
+    [
+      1048576,
+      1355775
+    ]
+  ],
+  "audio_physical_inclusive": [
+    [
+      307200,
+      1048575
+    ],
+    [
+      1355776,
+      2097151
+    ]
+  ],
+  "rule": "next_base=(current_base+current_words)%arena_words; start only after consumed>=overlap+guard",
+  "version": "media_catalog_v18",
+  "song_lengths": "Read from PLAYLST.BIN; include calibration prefix",
+  "calibration_prefix_words": 1024,
+  "max_stored_words": 1480704,
+  "max_payload_bytes": 5918720,
+  "board_measurement": "V17 map retained; V18 board confirmation pending"
+}

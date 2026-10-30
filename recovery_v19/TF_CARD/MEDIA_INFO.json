@@ -1,0 +1,52 @@
+{
+  "format": "HXPL0001",
+  "images": [
+    {
+      "file": "PIC0001.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\transition_v17\\TF_CARD\\PIC0001.BMP",
+      "width": 16,
+      "height": 16,
+      "conversion": "existing RGB24 BMP preserved"
+    },
+    {
+      "file": "PIC0002.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\transition_v17\\TF_CARD\\PIC0002.BMP",
+      "width": 656,
+      "height": 656,
+      "conversion": "existing RGB24 BMP preserved"
+    },
+    {
+      "file": "PIC0003.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\transition_v17\\TF_CARD\\PIC0003.BMP",
+      "width": 321,
+      "height": 181,
+      "conversion": "existing RGB24 BMP preserved"
+    }
+  ],
+  "music": [
+    {
+      "file": "MUSIC01.FPA",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\transition_v17\\TF_CARD\\MUSIC02.ULW",
+      "seconds": 121.232,
+      "stored_words": 728416,
+      "payload_bytes": 2909568,
+      "full_crc32": "8e63262d",
+      "probe_crc32": "51eb3dfc",
+      "payload_sha256": "ca60ad28c4857533d67f97cdad324f117aa9c725bd3dda16b408623ee283030e",
+      "conversion": "existing mu-law payload preserved"
+    },
+    {
+      "file": "MUSIC02.FPA",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\transition_v17\\TF_CARD\\MUSIC01.ULW",
+      "seconds": 189.33866666666665,
+      "stored_words": 1137056,
+      "payload_bytes": 4544128,
+      "full_crc32": "c3914595",
+      "probe_crc32": "51eb3dfc",
+      "payload_sha256": "869785ae2ee760bc628c43820817c6f01a802b3990d6b5b595ffadcaa1b47190",
+      "conversion": "existing mu-law payload preserved"
+    }
+  ],
+  "sample_rate": 24000,
+  "max_seconds": 246.61333333333334
+}

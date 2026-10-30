@@ -1,0 +1,17 @@
+=== READ CONFIGURATION FLASH DIRECTLY ===
+RUN-1002 : start command "download -mode rdbk_spi -cable 0 -spd 7 -start_addr 0x000000 -data_length 256 -rdbk C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/backup/flash_header_direct.bin"
+PRG-2014 : Chip validation success: EG4S20BG256
+PRG-1001 : SPI Flash ID is:  ef
+PRG-1001 : Online device is:  EG4S20BG256
+PRG-1001 : Online device is:  EG4S20BG256
+RUN-1002 : start command "program_spi -cable 0 -spd 1 -start_addr 000000 -data_length 256 -rdbk C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/backup/flash_header_direct.bin -chip EG4S20BG256"
+RUN-1003 : finish command "program_spi -cable 0 -spd 1 -start_addr 000000 -data_length 256 -rdbk C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/backup/flash_header_direct.bin -chip EG4S20BG256" in  0.192048s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 26 MB, reserved memory is 11 MB, peak memory is 32 MB
+RUN-1002 : start command "program -cable 0"
+RUN-1003 : finish command "program -cable 0" in  0.017501s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 26 MB, reserved memory is 11 MB, peak memory is 32 MB
+RUN-1003 : finish command "download -mode rdbk_spi -cable 0 -spd 7 -start_addr 0x000000 -data_length 256 -rdbk C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/backup/flash_header_direct.bin" in  7.087545s wall, 0.062500s user + 0.046875s system = 0.109375s CPU (1.5%)
+
+RUN-1004 : used memory is 26 MB, reserved memory is 11 MB, peak memory is 32 MB

@@ -1,0 +1,35 @@
+{
+  "format": "HXVD0001",
+  "packet_bytes": 16896,
+  "data_bytes_per_second": 253440,
+  "videos": [
+    {
+      "input": "D:\\软件\\Download\\maimaiMilk主题曲 Magical Flavor DECO_27 feat.Tia - 1.maimaiMilk主题曲 Magical Flavor DECO_27 f(Av38703529,P1).mp4",
+      "output": "VIDEO01.FPV",
+      "frames": 1818,
+      "fps": 15,
+      "seconds": 121.2,
+      "width": 160,
+      "height": 90,
+      "encoding": "per-frame RGB888 palette + 8-bit indices",
+      "audio": "24 kHz mono mu-law",
+      "bytes": 30717440,
+      "sha256": "cb931df5c5f33b9d56ea8c68079f353b029a84ace759b74a8c82943165d20afa",
+      "original_metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\软件\\Download\\maimaiMilk主题曲 Magical Flavor DECO_27 feat.Tia - 1.maimaiMilk主题曲 Magical Flavor DECO_27 f(Av38703529,P1).mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf58.20.100\r\n    description     : Packed by Bilibili XCoder v2.0.2\r\n  Duration: 00:02:01.23, start: 0.000000, bitrate: 1838 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 1762 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 65 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n"
+    },
+    {
+      "input": "D:\\软件\\Download\\【初音ミク】三日月Step 2023【r-906】 - 1.【初音ミク】三日月Step 2023【r-906】(Av741245020,P1).mp4",
+      "output": "VIDEO02.FPV",
+      "frames": 2839,
+      "fps": 15,
+      "seconds": 189.26666666666668,
+      "width": 160,
+      "height": 90,
+      "encoding": "per-frame RGB888 palette + 8-bit indices",
+      "audio": "24 kHz mono mu-law",
+      "bytes": 47968256,
+      "sha256": "c1bc08c52f8dfe342e9fad0f850ebb67a7a075be1f8685c297b4dfff29cfd66b",
+      "original_metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\软件\\Download\\【初音ミク】三日月Step 2023【r-906】 - 1.【初音ミク】三日月Step 2023【r-906】(Av741245020,P1).mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf58.20.100\r\n    description     : Packed by Bilibili XCoder v2.0.2\r\n  Duration: 00:03:09.34, start: 0.000000, bitrate: 1714 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1577 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n"
+    }
+  ]
+}

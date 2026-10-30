@@ -1,0 +1,5 @@
+RUN-1002 : start command "bit_to_bin -bit C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bit -bin C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bin"
+PRG-1003 : BitToBin: Generate bin file C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bin.
+RUN-1003 : finish command "bit_to_bin -bit C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bit -bin C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bin" in  0.038224s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (81.8%)
+
+RUN-1004 : used memory is 24 MB, reserved memory is 10 MB, peak memory is 31 MB

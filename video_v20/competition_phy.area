@@ -1,0 +1,120 @@
+standard
+***Report Model: competition Device: EG4S20BG256***
+
+IO Statistics
+#IO                        21   out of    188   11.17%
+  #input                   10
+  #output                  11
+  #inout                    0
+
+Utilization Statistics
+#lut                     7938   out of  19600   40.50%
+#reg                     3523   out of  19600   17.97%
+#le                      8412
+  #lut only              4889   out of   8412   58.12%
+  #reg only               474   out of   8412    5.63%
+  #lut&reg               3049   out of   8412   36.25%
+#bram                      48   out of     64   75.00%
+  #bram9k                  48
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                       15   out of     29   51.72%
+#pad                       25   out of    188   13.30%
+  #ireg                     4
+  #oreg                     8
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       3   out of     16   18.75%
+
+
+Detailed IO Report
+
+      Name         Direction    Location    IOStandard    IOType    DriveStrength    PullType    PackReg    DiffResistor  
+       clk           INPUT         R7        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+    key_n[3]         INPUT         C1        LVCMOS33      PAD           N/A          PULLUP      IREG          NONE      
+    key_n[2]         INPUT         B1        LVCMOS33      PAD           N/A          PULLUP      IREG          NONE      
+    key_n[1]         INPUT         B2        LVCMOS33      PAD           N/A          PULLUP      IREG          NONE      
+    key_n[0]         INPUT         A2        LVCMOS33      PAD           N/A          PULLUP      IREG          NONE      
+     sd_miso         INPUT        B14        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+      sw[3]          INPUT         C5        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+      sw[2]          INPUT         C6        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+      sw[1]          INPUT         C7        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+      sw[0]          INPUT         C8        LVCMOS33      PAD           N/A          PULLUP      NONE          NONE      
+   hdmi_clk_p       OUTPUT         C3         LVDS33       PAD           NA            NONE       DDRX1         NONE      
+  hdmi_clk_p(n)     OUTPUT         C2         LVDS33       PAD           NA            NONE       NONE          NONE      
+    hdmi_p[2]       OUTPUT         E1         LVDS33       PAD           NA            NONE       DDRX1         NONE      
+  hdmi_p[2](n)      OUTPUT         D1         LVDS33       PAD           NA            NONE       NONE          NONE      
+    hdmi_p[1]       OUTPUT         F1         LVDS33       PAD           NA            NONE       DDRX1         NONE      
+  hdmi_p[1](n)      OUTPUT         F2         LVDS33       PAD           NA            NONE       NONE          NONE      
+    hdmi_p[0]       OUTPUT         G5         LVDS33       PAD           NA            NONE       DDRX1         NONE      
+  hdmi_p[0](n)      OUTPUT         G6         LVDS33       PAD           NA            NONE       NONE          NONE      
+     led[3]         OUTPUT        B12        LVCMOS33      PAD            8            NONE       NONE          NONE      
+     led[2]         OUTPUT        C10        LVCMOS33      PAD            8            NONE       NONE          NONE      
+     led[1]         OUTPUT         A3        LVCMOS33      PAD            8            NONE       NONE          NONE      
+     led[0]         OUTPUT         A4        LVCMOS33      PAD            8            NONE       OREG          NONE      
+     sd_clk         OUTPUT        A14        LVCMOS33      PAD            8            NONE       OREG          NONE      
+      sd_cs         OUTPUT        A12        LVCMOS33      PAD            8            NONE       OREG          NONE      
+     sd_mosi        OUTPUT        A13        LVCMOS33      PAD            8            NONE       OREG          NONE      
+
+Report Clock Domain Luts:
+
+------------------------------------------------------------------------------------------------------------------
+  Index   |  Name         |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+------------------------------------------------------------------------------------------------------------------
+  #1      |  pll.clkc[0]  |  25MHz       |  1538           |  0                |  0             |  0      |  12
+  #2      |  pll.clkc[1]  |  125MHz      |  1185           |  0                |  64            |  38     |  0
+  #3      |  pll.clkc[3]  |  50MHz       |  881            |  0                |  512           |  46     |  3
+------------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet     Type               DriverType         Driver          Fanout
+#1        clocks[0]    Global             pll                pll.clkc0       935
+#2        clocks[1]    Global             pll                pll.clkc1       835
+#3        clocks[3]    Global             pll                pll.clkc3       733
+#4        clk_dup_1    GeneralRouting     io                 clk_syn_2.di    1
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------------+
+|Instance                   |Module               |le      |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------------------------+
+|top                        |competition          |8412    |6926    |1012    |3535    |48      |15      |
+|  av                       |hdmi_audio_bridge    |802     |710     |76      |310     |0       |0       |
+|    assembler              |packet_assembler     |186     |186     |0       |65      |0       |0       |
+|    picker                 |audio_packet_queue   |309     |301     |8       |137     |0       |0       |
+|  byte_queue               |async_bytes          |1307    |1274    |9       |151     |0       |0       |
+|  controls                 |key_controls         |77      |65      |5       |48      |0       |0       |
+|  data_lanes[1]$ser        |tmds_serialize       |11      |11      |0       |10      |0       |0       |
+|  data_lanes[2]$ser        |tmds_serialize       |8       |8       |0       |6       |0       |0       |
+|  enc_b                    |tmds_encode          |116     |103     |9       |56      |0       |0       |
+|  enc_g                    |tmds_encode          |105     |90      |9       |39      |0       |0       |
+|  enc_r                    |tmds_encode          |109     |96      |9       |47      |0       |0       |
+|  frames                   |movie_framebuffer    |20      |20      |0       |7       |36      |0       |
+|  movie                    |movie_stream         |1286    |849     |179     |791     |10      |2       |
+|    sound                  |movie_audio          |231     |143     |61      |105     |8       |0       |
+|  overlay                  |video_overlay        |773     |673     |78      |281     |0       |0       |
+|    recovery_label         |recovery_text        |176     |176     |0       |32      |0       |0       |
+|  reader                   |sd_spi_file_reader   |2649    |2179    |400     |1236    |0       |12      |
+|    u_sd_spi_sector_reader |sd_spi_sector_reader |647     |565     |82      |317     |0       |0       |
+|      u_spi_session        |spi_session          |455     |388     |67      |204     |0       |0       |
+|  ser_clk                  |tmds_serialize       |8       |8       |0       |6       |0       |0       |
+|  settings                 |display_controls     |31      |31      |0       |23      |0       |0       |
+|  transfer                 |picture_adjust       |171     |127     |39      |62      |0       |0       |
+|  visualizer               |audio_visualizer     |489     |359     |119     |180     |2       |0       |
+|  volume                   |audio_volume         |97      |72      |24      |28      |0       |1       |
+|  data_lanes[0]$ser        |tmds_serialize       |11      |11      |0       |11      |0       |0       |
+|  switch_inputs            |key_controls         |38      |38      |0       |28      |0       |0       |
++-------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       6933  
+    #2          2       2574  
+    #3          3       633   
+    #4          4       417   
+    #5        5-10      619   
+    #6        11-50     377   
+    #7       51-100      69   
+    #8       101-500     9    
+  Average     2.99            

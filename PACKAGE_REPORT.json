@@ -1,0 +1,834 @@
+{
+  "date": "2026-10-23",
+  "scope": "V19 stable source and V20 independent video extension",
+  "project_dependencies": [
+    {
+      "version": "recovery_v19",
+      "referenced_files": 33,
+      "all_present": true
+    },
+    {
+      "version": "video_v20",
+      "referenced_files": 20,
+      "all_present": true
+    }
+  ],
+  "v19_bit_matches_flash_record": true,
+  "source_rtl_modified": false,
+  "original_directories_modified": false,
+  "new_compilation_or_hardware_test": false,
+  "package_copy_changes": [
+    {
+      "file": "recovery_v19/competition_recovery_v19.al",
+      "change": "Project Path changed from original absolute path to dot in package copy; relative file references unchanged"
+    },
+    {
+      "file": "video_v20/competition_video_v20.al",
+      "change": "Project Path changed from original absolute path to dot in package copy; relative file references unchanged"
+    }
+  ],
+  "copied_files": [
+    {
+      "file": "recovery_v19/ASSET_FORMAT.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\ASSET_FORMAT.md",
+      "sha256_source": "6f8d7932ee4b1ea22f986dd18d9c7866846177d8ff1cc1b10c27e1410683c5bc"
+    },
+    {
+      "file": "recovery_v19/build.ps1",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\build.ps1",
+      "sha256_source": "f20a551cab8d08b0e87f165bf4239b81d70ca72d582b67348d0d6c284e131eb3"
+    },
+    {
+      "file": "recovery_v19/build.tcl",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\build.tcl",
+      "sha256_source": "ac9841085054dcef01e85ff751a1fa5e1c9064455dd220c5d70d06e2482d0df2"
+    },
+    {
+      "file": "recovery_v19/build_console.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\build_console.log",
+      "sha256_source": "6c7838e5f7798618b9e94a4d4a2dc86bd1372323fa711917b001023e0d334882"
+    },
+    {
+      "file": "recovery_v19/BUILD_STATUS.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\BUILD_STATUS.json",
+      "sha256_source": "4e1ad8eb9e8c28127ea7aaf9cea061a5a589af3d1dac7e4a5c21d021cf28bf9a"
+    },
+    {
+      "file": "recovery_v19/competition.adc",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition.adc",
+      "sha256_source": "515ab0e50d515bc52e47f0451baa6753792736f3fe37ad10dad310ab842215c4"
+    },
+    {
+      "file": "recovery_v19/competition.sdc",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition.sdc",
+      "sha256_source": "dd5c58e3804d5e9ac39a7716e92d9ed30229eb3cc63d3577aff4a0cab89cb380"
+    },
+    {
+      "file": "recovery_v19/competition_check.timing",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_check.timing",
+      "sha256_source": "d0069762a6d2c5e77358c0e04990b5b165c69ce0bc10e45e0f638f88ebfe20f7"
+    },
+    {
+      "file": "recovery_v19/competition_phy.area",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_phy.area",
+      "sha256_source": "325c0f1378f307da3d6a58e62a712f1127fcc2a32ad586500c2da8d1ba6df13b"
+    },
+    {
+      "file": "recovery_v19/competition_pr.timing",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_pr.timing",
+      "sha256_source": "e0d58f192fc4147c0683d356b2b2ef18e94a10f1265ead3b6befddfb5db1f9c9"
+    },
+    {
+      "file": "recovery_v19/competition_recovery_v19.al",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_recovery_v19.al",
+      "sha256_source": "f1b2161dc31616a2f947a68687b4400d38d6bfb1627c71fbbf05f75741ccdeb5"
+    },
+    {
+      "file": "recovery_v19/competition_recovery_v19.bit",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_recovery_v19.bit",
+      "sha256_source": "1d2f7c106b47173ef4f207660502291c135a1c864a79cce0eaf7a9057890e46e"
+    },
+    {
+      "file": "recovery_v19/launch_media_tool.ps1",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\launch_media_tool.ps1",
+      "sha256_source": "6c2b479ca74ff0515a76863f08a75e4f334cd18a95d7d7b66719d911f79e1b56"
+    },
+    {
+      "file": "recovery_v19/media_gui.py",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\media_gui.py",
+      "sha256_source": "8ac546523866375e981d4a437ffd101ac294dcb1fc095d413355a4ca23566edd"
+    },
+    {
+      "file": "recovery_v19/media_pack.py",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\media_pack.py",
+      "sha256_source": "2e1793ce8aeb600a255de2fb91f8e8f40c45cb574d0eb8ff23ad1763c0f8c7e0"
+    },
+    {
+      "file": "recovery_v19/MEMORY_LAYOUT.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\MEMORY_LAYOUT.json",
+      "sha256_source": "a52743b9f11bff83e09bb9bd1911d0c3df0c7797157c98e6e79a63633f5ee7f2"
+    },
+    {
+      "file": "recovery_v19/OPTIMIZATION_PLAN.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\OPTIMIZATION_PLAN.md",
+      "sha256_source": "5d8325be3ef6e2c2e654306993bae6ce60558ae72621adb2acf1530ffe39f32d"
+    },
+    {
+      "file": "recovery_v19/PACKAGE_SHA256.txt",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\PACKAGE_SHA256.txt",
+      "sha256_source": "80d8049359afc25e2418b61a6b1d3c5a283ff15b6e496be7771bb440d4934cae"
+    },
+    {
+      "file": "recovery_v19/README.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\README.md",
+      "sha256_source": "68e5b75412a83c808c432a102606fe077f9d343d3e8a16e7177d977214bed1d4"
+    },
+    {
+      "file": "recovery_v19/RECOVERY_DESIGN.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\RECOVERY_DESIGN.md",
+      "sha256_source": "a5ca2bf4b2b4f66520f5abb7336bbd17c61a89832333fab960f16a1452e08d8b"
+    },
+    {
+      "file": "recovery_v19/RELEASE_MANIFEST.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\RELEASE_MANIFEST.json",
+      "sha256_source": "6f6737f9c390d4090ac106f1b7a79eb15a3ec8b5958f5f1e2e5fefeb8340f389"
+    },
+    {
+      "file": "recovery_v19/rtl/async_bytes.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\async_bytes.v",
+      "sha256_source": "f7fc224a710fef4817f30ca3c1b294da70e07841b52be2fe42d3fa86a82c1fea"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_buffer_map.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_buffer_map.v",
+      "sha256_source": "5ec4bf5908f9101a1311973ff7830f0d707238269efa13474d3805877a4a625e"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_packet_queue.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_packet_queue.sv",
+      "sha256_source": "3ae817645cc0b886563eb557ed85fbbb9a0a61c1f6fbe47474e38a5b9a690056"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_read_align.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_read_align.v",
+      "sha256_source": "903974fdb0e4641a2dd86892d391535c1f028a0adb5e014412b332f96e3e34b2"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_slots.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_slots.v",
+      "sha256_source": "d761ebba741078d64dc69c0c631ddc7b061e373118fc917e7efca9c7b856df34"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_visualizer.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_visualizer.v",
+      "sha256_source": "347156ddab4a32f103baf5de2cd7e0e94985bf70877b3b4a1219d99f815977b7"
+    },
+    {
+      "file": "recovery_v19/rtl/audio_volume.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\audio_volume.v",
+      "sha256_source": "819e5fe7807a160875fff1533d5b8833f4f3685b2a0ce8b60b7f48d526e12d12"
+    },
+    {
+      "file": "recovery_v19/rtl/bmp24_loader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\bmp24_loader.v",
+      "sha256_source": "270482238250b98eab6d112c2483ba8dd2b455908086fd77e5e9b90becd8c4b4"
+    },
+    {
+      "file": "recovery_v19/rtl/competition.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\competition.v",
+      "sha256_source": "c6f7fe94c7bc63a9dd5b91059254a804fc6ab69d8e7f5e428951585268e3c806"
+    },
+    {
+      "file": "recovery_v19/rtl/crc32_byte.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\crc32_byte.v",
+      "sha256_source": "a2658bf270715d29c6b4f748c55e8921c74aa2e94f1b595e0be0ae6b4d41975e"
+    },
+    {
+      "file": "recovery_v19/rtl/display_controls.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\display_controls.v",
+      "sha256_source": "3a91c13bceb5076dc0e4d6ebc0e7552ee4819140acfcf725fbd022d7c046c233"
+    },
+    {
+      "file": "recovery_v19/rtl/frame_store.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\frame_store.v",
+      "sha256_source": "a1e783d3773b48b4be9d2084a563c53658ba85c7b6974dd4e87178008d24f09e"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/audio_clock_regeneration_packet.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\audio_clock_regeneration_packet.sv",
+      "sha256_source": "6f521eb9d2c2dadcc540c21d1905ffb8a61d7e14b8869ce2886082b246c210c8"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/audio_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\audio_info_frame.sv",
+      "sha256_source": "67e2b1a5a91a5411e717e563d360879be782b344b3ce511f91755b9c4b261457"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/audio_sample_packet.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\audio_sample_packet.sv",
+      "sha256_source": "041e64727d1030dc93f7947eb11308014f99b91ebc394ccdb24fbb090706371b"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/auxiliary_video_information_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\auxiliary_video_information_info_frame.sv",
+      "sha256_source": "ad549402b46d6b824d8a2cffe35b96943add581d4d5dc266a5ea33cd161b5d99"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/LICENSE-APACHE",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\LICENSE-APACHE",
+      "sha256_source": "40d8ff01192f2b3ae2817b7f42b6066aa79e3c4944d8f1285fdd43155b4b2f4e"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/LICENSE-MIT",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\LICENSE-MIT",
+      "sha256_source": "bd00da2c41ef4076b25413a06d511a096ef25004e267bcb6b7f10789cdcaa7c4"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/packet_assembler.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\packet_assembler.sv",
+      "sha256_source": "b024a0749f39f4b008f13ae1915d8f68a17a4edcc9da27704a32e701cb9b7c0e"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/packet_picker.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\packet_picker.sv",
+      "sha256_source": "bd059469110b9bf689e56d8d64b2e9a70177b85e8c59bb3a50415415f326f5fb"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/SOURCE.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\SOURCE.md",
+      "sha256_source": "62332716c049b0f7c9f28d8a2d825d5aa6bdbb8493871bad296f695be8efe60a"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio/source_product_description_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio\\source_product_description_info_frame.sv",
+      "sha256_source": "1b35d31aafda97caac8afd6335f6e62bc290ec65a8a0570f206ac7d9395c2951"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio_bridge.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio_bridge.sv",
+      "sha256_source": "7e12152f0aa1ae86c974c9bdcaa577d8988a30aab4fd0f7f437d91a25c2b3689"
+    },
+    {
+      "file": "recovery_v19/rtl/hdmi_audio_converted.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\hdmi_audio_converted.v",
+      "sha256_source": "cf723a2a7fb78b4b285c021388541aa69469dacbee0cd6fae7217f92b594adba"
+    },
+    {
+      "file": "recovery_v19/rtl/key_controls.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\key_controls.v",
+      "sha256_source": "9a7234f51cece319a9221342c43d47a4004c6ed00b1fd3bb0cc9cd6480cf7e0a"
+    },
+    {
+      "file": "recovery_v19/rtl/media_catalog.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\media_catalog.v",
+      "sha256_source": "0c53f76b66d0bd75551bc18cf4703b5d27a9350f2fa74c4e49457d3d7692e790"
+    },
+    {
+      "file": "recovery_v19/rtl/music_config.vh",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\music_config.vh",
+      "sha256_source": "d8d04778a8ed606f0f8a008c8ba28933f8dbe700ecb6c980b769fa9cc78ee34d"
+    },
+    {
+      "file": "recovery_v19/rtl/music_loader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\music_loader.v",
+      "sha256_source": "4c26cd75032c2c23fdc7c81318c48489d05a8a96a0b745e283d96d444aeff93c"
+    },
+    {
+      "file": "recovery_v19/rtl/music_player.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\music_player.v",
+      "sha256_source": "a7da29e2283de26376162319e1f2e7f5d9eea7a213c5f3c67a395c24e7b1806b"
+    },
+    {
+      "file": "recovery_v19/rtl/music_playlist.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\music_playlist.v",
+      "sha256_source": "116b18bf32f4401d1f818740587f3e3c9f562dca15649170b4792cabe518dd41"
+    },
+    {
+      "file": "recovery_v19/rtl/picture_adjust.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\picture_adjust.v",
+      "sha256_source": "c9130fd7fa0e2b1a31b7206114602f1f79cd5bbd09e0ef331570c6bf6678d42a"
+    },
+    {
+      "file": "recovery_v19/rtl/player_control.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\player_control.v",
+      "sha256_source": "3cfa7cf687b9f370ae1bef59165f21f3713183722a6dcc475774ef552162c5a6"
+    },
+    {
+      "file": "recovery_v19/rtl/recovery_notice.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\recovery_notice.v",
+      "sha256_source": "3852263034f2f0603331eb16072b083053a358364c38ee519471f302226e4a69"
+    },
+    {
+      "file": "recovery_v19/rtl/recovery_text.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\recovery_text.v",
+      "sha256_source": "881459163cbfe5b2795b3cc89edf5b320dc2530b1caf2430b3417b2cc2bdc054"
+    },
+    {
+      "file": "recovery_v19/rtl/sd_spi/LICENSE",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\sd_spi\\LICENSE",
+      "sha256_source": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+    },
+    {
+      "file": "recovery_v19/rtl/sd_spi/sd_spi_file_reader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\sd_spi\\sd_spi_file_reader.v",
+      "sha256_source": "1879ddd13bf48a827c6e43a353f9dc51472b86aa808bb414896c74fa5b3d39bc"
+    },
+    {
+      "file": "recovery_v19/rtl/sd_spi/sd_spi_sector_reader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\sd_spi\\sd_spi_sector_reader.v",
+      "sha256_source": "4cd3a7dcbf3053bb14442e8a13115d96e30f5e611b2a75967389ccb4930968bc"
+    },
+    {
+      "file": "recovery_v19/rtl/sd_spi/SOURCE.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\sd_spi\\SOURCE.md",
+      "sha256_source": "4c588082f62fda69febd0011a3aa0e0e17faeb0e37e4629793c57b144edcdd0d"
+    },
+    {
+      "file": "recovery_v19/rtl/sd_spi/spi_session.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\sd_spi\\spi_session.v",
+      "sha256_source": "d0b7820da0a3f254b3d82b30448c26d8b7fc45b08d5d607cd0e7afdb887b6c1f"
+    },
+    {
+      "file": "recovery_v19/rtl/status_display.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\status_display.v",
+      "sha256_source": "d7d5981aa2b0064ad5c180f96a5fc40b2738045282e2697ff5f58d9609ffc4ba"
+    },
+    {
+      "file": "recovery_v19/rtl/tmds.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\tmds.v",
+      "sha256_source": "a0f8a26eb3b32b9b58df065c5e2970a789adffa5b9a012c49371eb7a9085cdbe"
+    },
+    {
+      "file": "recovery_v19/rtl/transition_control.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\transition_control.v",
+      "sha256_source": "d5416a959df973c53747b3829ab913a76419df639fd62943a77ab1ddab6a9116"
+    },
+    {
+      "file": "recovery_v19/rtl/vendor_sdram/sdr_as_ram.enc.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\vendor_sdram\\sdr_as_ram.enc.v",
+      "sha256_source": "31f90d25e25d498215ebfcc94d13e497bb2970fd0755548f2d6a50938346d14c"
+    },
+    {
+      "file": "recovery_v19/rtl/vendor_sdram/sdr_init_ref.enc.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\vendor_sdram\\sdr_init_ref.enc.v",
+      "sha256_source": "2a49cba48d970f4e48941356a0529c0df2fc9c1bcd13dfac7e04bf53c612212c"
+    },
+    {
+      "file": "recovery_v19/rtl/vendor_sdram/sdr_wrrd.enc.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\vendor_sdram\\sdr_wrrd.enc.v",
+      "sha256_source": "58a518cdf05233720bf26249a258b2d08b048fa863c1905ef686bf13bf5d1711"
+    },
+    {
+      "file": "recovery_v19/rtl/vendor_sdram/SOURCE.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\vendor_sdram\\SOURCE.md",
+      "sha256_source": "bb5188ff0a65e7c1f34994c562c1f6c4da7caafc7d2d108c69aeecc55c339fe5"
+    },
+    {
+      "file": "recovery_v19/rtl/video_overlay.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\rtl\\video_overlay.v",
+      "sha256_source": "aa61d5a55ff964e77ad6405f29d0a046c9bd3df970428be6a1f315900db445e6"
+    },
+    {
+      "file": "recovery_v19/START_MEDIA_TOOL.cmd",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\START_MEDIA_TOOL.cmd",
+      "sha256_source": "45453a6decf01973eacf4457b0940328c852573d008f9c8fb810f4a43fb56234"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/MEDIA_INFO.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MEDIA_INFO.json",
+      "sha256_source": "a5b382d33f715a97f84a5cd205ca3b1aee3d42d3e76b6acdc49aedb46e6408e0"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/MUSIC01.FPA",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MUSIC01.FPA",
+      "sha256_source": "f024b82b33dabe9cf819b722d99b2c6bcc0c2db325572a11a3be1bc5592231f7"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/MUSIC02.FPA",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MUSIC02.FPA",
+      "sha256_source": "94576c1a29fba9112bd5481b54b55147be48b977e2ca8e93207d0e7246a58990"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/PIC0001.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\PIC0001.BMP",
+      "sha256_source": "b7acefe19c75bc2f6e6c1729764d8685d79d6be6fcaabee0ab973b8a20f63e0d"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/PIC0002.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\PIC0002.BMP",
+      "sha256_source": "1c24360dd75e29c75ef2a6135b122694cf11129c19a52b9836447cd25a88d7ea"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/PIC0003.BMP",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\PIC0003.BMP",
+      "sha256_source": "afd5010724197fa38e335061e8e9ef1ab2797cb0278f18aaa9e2979c3c8b93fe"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/PLAYLST.BIN",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\PLAYLST.BIN",
+      "sha256_source": "ea4d30ca4e99d9d044bb129f3437ac04ad3e528de45c1b996b5dd27ef75b5d54"
+    },
+    {
+      "file": "recovery_v19/TF_CARD/素材清单.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\素材清单.json",
+      "sha256_source": "da6baeec03f68ee78a1c57b19d49e98a93d53614346faf75399c15c37d4e9b75"
+    },
+    {
+      "file": "recovery_v19/TF_CARD_SHA256.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD_SHA256.json",
+      "sha256_source": "dca79a6459d7625ccf04da1ffd171b6e528719cc092eb5f21a2978c816a30d88"
+    },
+    {
+      "file": "recovery_v19/素材清单.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\素材清单.json",
+      "sha256_source": "14e229e8188752345bf26b1126b449894bab17151f7c9a36652b1196333582bb"
+    },
+    {
+      "file": "video_v20/build.ps1",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\build.ps1",
+      "sha256_source": "9a8cf6fb3dd693674b85795d7a1ef918f65da10124f861b1c4426defdd2965c0"
+    },
+    {
+      "file": "video_v20/build.tcl",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\build.tcl",
+      "sha256_source": "d6d065db62d89e0e05a190d19d090e0a119c39a2b56ccf9a8bff21333fb2719d"
+    },
+    {
+      "file": "video_v20/build_console.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\build_console.log",
+      "sha256_source": "b54d1478ae1de866abaf869ddcdc1af26e878f35689a49c649fd8e24bdf48b46"
+    },
+    {
+      "file": "video_v20/BUILD_STATUS.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\BUILD_STATUS.json",
+      "sha256_source": "36c0bfd97fe05800e84bbc621fbda33f092a343c0a5f00603ce43f53cd73a0d3"
+    },
+    {
+      "file": "video_v20/competition.adc",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition.adc",
+      "sha256_source": "515ab0e50d515bc52e47f0451baa6753792736f3fe37ad10dad310ab842215c4"
+    },
+    {
+      "file": "video_v20/competition.sdc",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition.sdc",
+      "sha256_source": "dd5c58e3804d5e9ac39a7716e92d9ed30229eb3cc63d3577aff4a0cab89cb380"
+    },
+    {
+      "file": "video_v20/competition_check.timing",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition_check.timing",
+      "sha256_source": "579b103a5204348a1572b57ba6e8811188461f62f568ce2d84cf3479a2b8d8ef"
+    },
+    {
+      "file": "video_v20/competition_phy.area",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition_phy.area",
+      "sha256_source": "ce629c2a9f7da64bc823b13cae21a4654257433553a4d6bfc73d39b0042ac0df"
+    },
+    {
+      "file": "video_v20/competition_pr.timing",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition_pr.timing",
+      "sha256_source": "4cdc8857a78fe02fa9c107d29892e0878e0e8010101cd2e6787e5f88d42c629e"
+    },
+    {
+      "file": "video_v20/competition_video_v20.al",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition_video_v20.al",
+      "sha256_source": "b62115cff2c1d36d6c410c09aabc5271cc2aff3d9825667e67eb72dbb77f169f"
+    },
+    {
+      "file": "video_v20/competition_video_v20.bit",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\competition_video_v20.bit",
+      "sha256_source": "7596165f328909ec1f1f3ffe49e36a94f708c39880c119b194ae7722bbb5e470"
+    },
+    {
+      "file": "video_v20/convert_videos.py",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\convert_videos.py",
+      "sha256_source": "215217726fd26517b1e77f693b7be0be33114d0de2cdae307fb74f95ee431d7b"
+    },
+    {
+      "file": "video_v20/download_sram.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\download_sram.log",
+      "sha256_source": "8823ccf9f4a905b8a653c67bce26251a98da68f5696b420d9090207f4628f6ec"
+    },
+    {
+      "file": "video_v20/DOWNLOAD_SRAM.ps1",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\DOWNLOAD_SRAM.ps1",
+      "sha256_source": "a73153e42daec2c459bccd543dfc1ff3af33f4473821fd26f59cc6c7f5b95ed7"
+    },
+    {
+      "file": "video_v20/download_sram.tcl",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\download_sram.tcl",
+      "sha256_source": "6698282426bbf9b0b4ce339f2eccc91d7909039b72b992eedee862a442c0782b"
+    },
+    {
+      "file": "video_v20/FORMAT.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\FORMAT.md",
+      "sha256_source": "43005e1d029c216089329dda97272e75a594eb53fd55deb8ead65405fcaa46ec"
+    },
+    {
+      "file": "video_v20/README.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\README.md",
+      "sha256_source": "dccc47be396defeaa1cb4053cc9790b220044fdfe6012902c496d2347515e082"
+    },
+    {
+      "file": "video_v20/rtl/async_bytes.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\async_bytes.v",
+      "sha256_source": "f7fc224a710fef4817f30ca3c1b294da70e07841b52be2fe42d3fa86a82c1fea"
+    },
+    {
+      "file": "video_v20/rtl/audio_packet_queue.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\audio_packet_queue.sv",
+      "sha256_source": "3ae817645cc0b886563eb557ed85fbbb9a0a61c1f6fbe47474e38a5b9a690056"
+    },
+    {
+      "file": "video_v20/rtl/audio_visualizer.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\audio_visualizer.v",
+      "sha256_source": "347156ddab4a32f103baf5de2cd7e0e94985bf70877b3b4a1219d99f815977b7"
+    },
+    {
+      "file": "video_v20/rtl/audio_volume.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\audio_volume.v",
+      "sha256_source": "819e5fe7807a160875fff1533d5b8833f4f3685b2a0ce8b60b7f48d526e12d12"
+    },
+    {
+      "file": "video_v20/rtl/competition.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\competition.v",
+      "sha256_source": "75c2a028a8363b320feca961318fba35a6ba601de9d2446f8e1a4595d9f2ba73"
+    },
+    {
+      "file": "video_v20/rtl/crc32_byte.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\crc32_byte.v",
+      "sha256_source": "a2658bf270715d29c6b4f748c55e8921c74aa2e94f1b595e0be0ae6b4d41975e"
+    },
+    {
+      "file": "video_v20/rtl/display_controls.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\display_controls.v",
+      "sha256_source": "3a91c13bceb5076dc0e4d6ebc0e7552ee4819140acfcf725fbd022d7c046c233"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/audio_clock_regeneration_packet.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\audio_clock_regeneration_packet.sv",
+      "sha256_source": "6f521eb9d2c2dadcc540c21d1905ffb8a61d7e14b8869ce2886082b246c210c8"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/audio_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\audio_info_frame.sv",
+      "sha256_source": "67e2b1a5a91a5411e717e563d360879be782b344b3ce511f91755b9c4b261457"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/audio_sample_packet.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\audio_sample_packet.sv",
+      "sha256_source": "041e64727d1030dc93f7947eb11308014f99b91ebc394ccdb24fbb090706371b"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/auxiliary_video_information_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\auxiliary_video_information_info_frame.sv",
+      "sha256_source": "ad549402b46d6b824d8a2cffe35b96943add581d4d5dc266a5ea33cd161b5d99"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/LICENSE-APACHE",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\LICENSE-APACHE",
+      "sha256_source": "40d8ff01192f2b3ae2817b7f42b6066aa79e3c4944d8f1285fdd43155b4b2f4e"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/LICENSE-MIT",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\LICENSE-MIT",
+      "sha256_source": "bd00da2c41ef4076b25413a06d511a096ef25004e267bcb6b7f10789cdcaa7c4"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/packet_assembler.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\packet_assembler.sv",
+      "sha256_source": "b024a0749f39f4b008f13ae1915d8f68a17a4edcc9da27704a32e701cb9b7c0e"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/packet_picker.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\packet_picker.sv",
+      "sha256_source": "bd059469110b9bf689e56d8d64b2e9a70177b85e8c59bb3a50415415f326f5fb"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/SOURCE.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\SOURCE.md",
+      "sha256_source": "62332716c049b0f7c9f28d8a2d825d5aa6bdbb8493871bad296f695be8efe60a"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio/source_product_description_info_frame.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio\\source_product_description_info_frame.sv",
+      "sha256_source": "1b35d31aafda97caac8afd6335f6e62bc290ec65a8a0570f206ac7d9395c2951"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio_bridge.sv",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio_bridge.sv",
+      "sha256_source": "7e12152f0aa1ae86c974c9bdcaa577d8988a30aab4fd0f7f437d91a25c2b3689"
+    },
+    {
+      "file": "video_v20/rtl/hdmi_audio_converted.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\hdmi_audio_converted.v",
+      "sha256_source": "cf723a2a7fb78b4b285c021388541aa69469dacbee0cd6fae7217f92b594adba"
+    },
+    {
+      "file": "video_v20/rtl/key_controls.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\key_controls.v",
+      "sha256_source": "9a7234f51cece319a9221342c43d47a4004c6ed00b1fd3bb0cc9cd6480cf7e0a"
+    },
+    {
+      "file": "video_v20/rtl/movie_audio.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\movie_audio.v",
+      "sha256_source": "820905a5cedaacd84f51cb383d28e21a343d5bf10d0823022712928ebddf1ddc"
+    },
+    {
+      "file": "video_v20/rtl/movie_framebuffer.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\movie_framebuffer.v",
+      "sha256_source": "bf04aad543a6024ce5f97c55850086068b161d5dde32229a819367fad3b88cdb"
+    },
+    {
+      "file": "video_v20/rtl/movie_stream.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\movie_stream.v",
+      "sha256_source": "89f805679583e48efc64f690cb37caebac98646edb21d8690dda8986f5ca2109"
+    },
+    {
+      "file": "video_v20/rtl/picture_adjust.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\picture_adjust.v",
+      "sha256_source": "76c551fc807847621351db64b023cfdf865da94220ca5e5f3d1e2f9f56516a42"
+    },
+    {
+      "file": "video_v20/rtl/recovery_text.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\recovery_text.v",
+      "sha256_source": "d09f0831e951e4d421cee8305afb8ad49fe8e8cf44d8e4586ebb2e5f73af53f6"
+    },
+    {
+      "file": "video_v20/rtl/sd_spi/LICENSE",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\sd_spi\\LICENSE",
+      "sha256_source": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+    },
+    {
+      "file": "video_v20/rtl/sd_spi/sd_spi_file_reader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\sd_spi\\sd_spi_file_reader.v",
+      "sha256_source": "1879ddd13bf48a827c6e43a353f9dc51472b86aa808bb414896c74fa5b3d39bc"
+    },
+    {
+      "file": "video_v20/rtl/sd_spi/sd_spi_sector_reader.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\sd_spi\\sd_spi_sector_reader.v",
+      "sha256_source": "4cd3a7dcbf3053bb14442e8a13115d96e30f5e611b2a75967389ccb4930968bc"
+    },
+    {
+      "file": "video_v20/rtl/sd_spi/SOURCE.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\sd_spi\\SOURCE.md",
+      "sha256_source": "4c588082f62fda69febd0011a3aa0e0e17faeb0e37e4629793c57b144edcdd0d"
+    },
+    {
+      "file": "video_v20/rtl/sd_spi/spi_session.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\sd_spi\\spi_session.v",
+      "sha256_source": "d0b7820da0a3f254b3d82b30448c26d8b7fc45b08d5d607cd0e7afdb887b6c1f"
+    },
+    {
+      "file": "video_v20/rtl/tmds.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\tmds.v",
+      "sha256_source": "a0f8a26eb3b32b9b58df065c5e2970a789adffa5b9a012c49371eb7a9085cdbe"
+    },
+    {
+      "file": "video_v20/rtl/video_overlay.v",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\rtl\\video_overlay.v",
+      "sha256_source": "a6a89ad579eae5d1eab6a40ea8639add8da01b3dc2764a0395e10d2bb05dc4ab"
+    },
+    {
+      "file": "video_v20/SHA256.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\SHA256.json",
+      "sha256_source": "59389841b708d24be0a5b0706f94ec4f5beb8737877c5e6d8eec317b28594e48"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO01.FPV",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO01.FPV",
+      "sha256_source": "cb931df5c5f33b9d56ea8c68079f353b029a84ace759b74a8c82943165d20afa"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO01_preview_0000.png",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO01_preview_0000.png",
+      "sha256_source": "6e33bb278cac8afc5ab3115f736852bae2c09c8212354a785b301023f9168146"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO01_preview_0450.png",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO01_preview_0450.png",
+      "sha256_source": "86e51986455346fd6c5b27b3709e1e13c2d0a7c298c2b9c20b274f8fac4b6922"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO02.FPV",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO02.FPV",
+      "sha256_source": "c1bc08c52f8dfe342e9fad0f850ebb67a7a075be1f8685c297b4dfff29cfd66b"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO02_preview_0000.png",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO02_preview_0000.png",
+      "sha256_source": "a3d85850dbb29442c47f2ba254b252f21fe90cf61aee173abb08fbd358d2c211"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO02_preview_0450.png",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO02_preview_0450.png",
+      "sha256_source": "4a796e19346d4ab833b9caf83fd01d1b247d331503268e83a53ea7cbb92c793a"
+    },
+    {
+      "file": "video_v20/TF_CARD/VIDEO_INFO.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\video_v20\\TF_CARD\\VIDEO_INFO.json",
+      "sha256_source": "8110fa2a8d5772a039390bba026a368e50ff5b48f9aa98b3120810bee951d167"
+    },
+    {
+      "file": "flash_boot_v19/backup/flash_before_v19.bin",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\backup\\flash_before_v19.bin",
+      "sha256_source": "76cdf2cea86903cbb0e452b7d878108ae83a9deccb7176dff485942369bda967"
+    },
+    {
+      "file": "flash_boot_v19/backup/flash_header_direct.bin",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\backup\\flash_header_direct.bin",
+      "sha256_source": "21ea8033b8fc979efd779974be331524168136c9027d26a2743dd1617b8fb213"
+    },
+    {
+      "file": "flash_boot_v19/backup_direct_read.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\backup_direct_read.log",
+      "sha256_source": "65b3d7a8378f00a66abdd8a0f3a89bcda78ae9f6cf699b82129a32543b6e2588"
+    },
+    {
+      "file": "flash_boot_v19/backup_header_read.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\backup_header_read.log",
+      "sha256_source": "e6ae77506c7c0058ccd5c1005ef30b74d4463ca63d4fbfb9fdaeb03c53ba8bc1"
+    },
+    {
+      "file": "flash_boot_v19/BUILD_STATUS.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\BUILD_STATUS.json",
+      "sha256_source": "4e1ad8eb9e8c28127ea7aaf9cea061a5a589af3d1dac7e4a5c21d021cf28bf9a"
+    },
+    {
+      "file": "flash_boot_v19/competition_recovery_v19.bin",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\competition_recovery_v19.bin",
+      "sha256_source": "14b13115d07963ac94ac0460ebe8ad7435b3bfdbe2078b86baaeb1e0a7d4ad0c"
+    },
+    {
+      "file": "flash_boot_v19/competition_recovery_v19.bit",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\competition_recovery_v19.bit",
+      "sha256_source": "1d2f7c106b47173ef4f207660502291c135a1c864a79cce0eaf7a9057890e46e"
+    },
+    {
+      "file": "flash_boot_v19/competition_recovery_v19_flash.svf",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\competition_recovery_v19_flash.svf",
+      "sha256_source": "a647246b856acfb9710ffc59a1e8e8171b0a9d1813fe8e85b5964b8bd9def4a5"
+    },
+    {
+      "file": "flash_boot_v19/export_bin.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\export_bin.log",
+      "sha256_source": "12d7811a1253b2fa0e80ef2a5a5668055c691f9ab05755adfb05374672061cce"
+    },
+    {
+      "file": "flash_boot_v19/flash_after_v19_1792230594.bin",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\flash_after_v19_1792230594.bin",
+      "sha256_source": "14b13115d07963ac94ac0460ebe8ad7435b3bfdbe2078b86baaeb1e0a7d4ad0c"
+    },
+    {
+      "file": "flash_boot_v19/flash_program_20261017_174327.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\flash_program_20261017_174327.log",
+      "sha256_source": "4a7949b462f240658ea263c5c1abbfccbc43fcefd5459e5b891c1e7ff656de69"
+    },
+    {
+      "file": "flash_boot_v19/FLASH_STATUS.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\FLASH_STATUS.json",
+      "sha256_source": "6c354ba4e4beb06f40931f929fd90584ba64fec381e8656b29b2508b959b1a42"
+    },
+    {
+      "file": "flash_boot_v19/generate_svf_compat.log",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\generate_svf_compat.log",
+      "sha256_source": "90ec52a0f2d6c312409269b8862c725871b49d34bdbcc22537d8e538187c98d2"
+    },
+    {
+      "file": "flash_boot_v19/OPTIMIZATION_PLAN.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\OPTIMIZATION_PLAN.md",
+      "sha256_source": "f89300cd8ca49c18df42b21c4218b35b040fa224ee5d91dda21956de6db57025"
+    },
+    {
+      "file": "flash_boot_v19/PROGRAM_FLASH.ps1",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\PROGRAM_FLASH.ps1",
+      "sha256_source": "59ca47e00fc92f116a32995cf47063a85075a79529cb8d3a66bd7462b9e35a8a"
+    },
+    {
+      "file": "flash_boot_v19/program_flash.tcl",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\program_flash.tcl",
+      "sha256_source": "b085d71bf94554b08f4d885803bfb82c16e9419b835216ff88f28655daf0b1aa"
+    },
+    {
+      "file": "flash_boot_v19/README.md",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\README.md",
+      "sha256_source": "422ca158db9cf1b73c7844d6e264504b14bda6e123424e7b308dbee87968d084"
+    },
+    {
+      "file": "flash_boot_v19/SHA256.json",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\SHA256.json",
+      "sha256_source": "f0d8561337314fe38a35971323764bcc8c42cdcdbcf21e33ef3a55344c129a2e"
+    },
+    {
+      "file": "flash_boot_v19/v19_config.txt",
+      "source": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\flash_boot_v19\\v19_config.txt",
+      "sha256_source": "c25bb6f0bf5008c6aec927f68f451c9be06a032bf07d96e2af6dcef378b6a278"
+    },
+    {
+      "file": "docs/功能与按键速查.md",
+      "source": "C:\\Users\\ASUS\\Desktop\\ds\\声画视窗_拍摄资料\\功能与按键速查.md",
+      "sha256_source": "8af0bff9ad38e7a75c2483976c4bb0d0c9e5dc2fa00e5b7a5417be7d01e1a4ea"
+    }
+  ],
+  "excluded": [
+    {
+      "file": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\backup\\before_recovery_v19_20261016_205834.zip",
+      "reason": "historical backup or regenerable temporary output"
+    },
+    {
+      "file": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_recovery_v19_tmp.bin",
+      "reason": "historical backup or regenerable temporary output"
+    },
+    {
+      "file": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MUSIC01.ADP",
+      "reason": "unused old-format audio; released playlist uses FPA"
+    },
+    {
+      "file": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MUSIC01.ULW",
+      "reason": "unused old-format audio; released playlist uses FPA"
+    },
+    {
+      "file": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\TF_CARD\\MUSIC02.ULW",
+      "reason": "unused old-format audio; released playlist uses FPA"
+    }
+  ]
+}

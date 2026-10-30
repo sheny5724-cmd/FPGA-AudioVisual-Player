@@ -1,0 +1,30 @@
+{
+  "version": "recovery_v19",
+  "parent": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\media_catalog_v18",
+  "parent_bit_sha256": "2a630b9c332b340ad19b60adca8044737630140bbcd52ee7bc4db7b899d34b3e",
+  "backup": "backup/before_recovery_v19_20261016_205834.zip",
+  "status": "TD build complete; board confirmation pending",
+  "user_confirmed_parent": "V18 accepted after copying catalog and FPA files",
+  "backup_sha256": "dde82bf58f753853851602d689da0e39b875d8c4b023ea526477ea4c56a44f17",
+  "changed_rtl": [
+    "rtl/competition.v",
+    "rtl/media_catalog.v",
+    "rtl/music_loader.v",
+    "rtl/music_playlist.v",
+    "rtl/player_control.v",
+    "rtl/recovery_notice.v",
+    "rtl/recovery_text.v",
+    "rtl/video_overlay.v"
+  ],
+  "project_path": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_recovery_v19.al",
+  "bit_path": "E:\\FPGA\\TD_6.2.1_SP1_178840_NL\\competition\\recovery_v19\\competition_recovery_v19.bit",
+  "features": {
+    "automatic_retries": 2,
+    "retry_delay_min_seconds": 0.5,
+    "bad_item_quarantine": "until manual rescan/reconfiguration",
+    "image_failure": "Keep front frame and skip bad item",
+    "audio_failure": "Skip bad track; mute if all tracks fail",
+    "catalog_failure": "Bounded retry then stop; no guessed metadata",
+    "compatible_media_format": "HXPL0001 / HXAU0001"
+  }
+}

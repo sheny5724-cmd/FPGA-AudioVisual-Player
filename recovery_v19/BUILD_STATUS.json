@@ -1,0 +1,87 @@
+{
+  "version": "recovery_v19",
+  "td_build": "completed",
+  "error_count": 0,
+  "built_at": "2026-10-16T21:17:02.193834",
+  "setup_wns_ns": 0.113,
+  "hold_wns_ns": 0.011,
+  "setup_tns_ns": 0.0,
+  "hold_tns_ns": 0.0,
+  "sta_coverage_percent": 99.85,
+  "constraints": "V18 ADC and SDC unchanged. STA describes analyzed paths; not a board acceptance result.",
+  "bit_sha256": "1d2f7c106b47173ef4f207660502291c135a1c864a79cce0eaf7a9057890e46e",
+  "bit_bytes": 629632,
+  "resources": {
+    "lut": {
+      "used": 15983,
+      "total": 19600
+    },
+    "reg": {
+      "used": 6863,
+      "total": 19600
+    },
+    "bram": {
+      "used": 17,
+      "total": 64
+    },
+    "dsp": {
+      "used": 15,
+      "total": 29
+    }
+  },
+  "critical_warnings": [
+    "PHY-7002 CRITICAL-WARNING: Instance memory location (12, 12) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file."
+  ],
+  "simulation": "Not run; no automated tests added or run",
+  "hardware_acceptance": "Pending",
+  "tf_media": "All copied files byte-for-byte equal to user-confirmed V18; no recopy required",
+  "source_sha256": {
+    "rtl/async_bytes.v": "f7fc224a710fef4817f30ca3c1b294da70e07841b52be2fe42d3fa86a82c1fea",
+    "rtl/audio_buffer_map.v": "5ec4bf5908f9101a1311973ff7830f0d707238269efa13474d3805877a4a625e",
+    "rtl/audio_packet_queue.sv": "3ae817645cc0b886563eb557ed85fbbb9a0a61c1f6fbe47474e38a5b9a690056",
+    "rtl/audio_read_align.v": "903974fdb0e4641a2dd86892d391535c1f028a0adb5e014412b332f96e3e34b2",
+    "rtl/audio_slots.v": "d761ebba741078d64dc69c0c631ddc7b061e373118fc917e7efca9c7b856df34",
+    "rtl/audio_visualizer.v": "347156ddab4a32f103baf5de2cd7e0e94985bf70877b3b4a1219d99f815977b7",
+    "rtl/audio_volume.v": "819e5fe7807a160875fff1533d5b8833f4f3685b2a0ce8b60b7f48d526e12d12",
+    "rtl/bmp24_loader.v": "270482238250b98eab6d112c2483ba8dd2b455908086fd77e5e9b90becd8c4b4",
+    "rtl/competition.v": "c6f7fe94c7bc63a9dd5b91059254a804fc6ab69d8e7f5e428951585268e3c806",
+    "rtl/crc32_byte.v": "a2658bf270715d29c6b4f748c55e8921c74aa2e94f1b595e0be0ae6b4d41975e",
+    "rtl/display_controls.v": "3a91c13bceb5076dc0e4d6ebc0e7552ee4819140acfcf725fbd022d7c046c233",
+    "rtl/frame_store.v": "a1e783d3773b48b4be9d2084a563c53658ba85c7b6974dd4e87178008d24f09e",
+    "rtl/hdmi_audio_bridge.sv": "7e12152f0aa1ae86c974c9bdcaa577d8988a30aab4fd0f7f437d91a25c2b3689",
+    "rtl/hdmi_audio_converted.v": "cf723a2a7fb78b4b285c021388541aa69469dacbee0cd6fae7217f92b594adba",
+    "rtl/key_controls.v": "9a7234f51cece319a9221342c43d47a4004c6ed00b1fd3bb0cc9cd6480cf7e0a",
+    "rtl/media_catalog.v": "0c53f76b66d0bd75551bc18cf4703b5d27a9350f2fa74c4e49457d3d7692e790",
+    "rtl/music_config.vh": "d8d04778a8ed606f0f8a008c8ba28933f8dbe700ecb6c980b769fa9cc78ee34d",
+    "rtl/music_loader.v": "4c26cd75032c2c23fdc7c81318c48489d05a8a96a0b745e283d96d444aeff93c",
+    "rtl/music_player.v": "a7da29e2283de26376162319e1f2e7f5d9eea7a213c5f3c67a395c24e7b1806b",
+    "rtl/music_playlist.v": "116b18bf32f4401d1f818740587f3e3c9f562dca15649170b4792cabe518dd41",
+    "rtl/picture_adjust.v": "c9130fd7fa0e2b1a31b7206114602f1f79cd5bbd09e0ef331570c6bf6678d42a",
+    "rtl/player_control.v": "3cfa7cf687b9f370ae1bef59165f21f3713183722a6dcc475774ef552162c5a6",
+    "rtl/recovery_notice.v": "3852263034f2f0603331eb16072b083053a358364c38ee519471f302226e4a69",
+    "rtl/recovery_text.v": "881459163cbfe5b2795b3cc89edf5b320dc2530b1caf2430b3417b2cc2bdc054",
+    "rtl/status_display.v": "d7d5981aa2b0064ad5c180f96a5fc40b2738045282e2697ff5f58d9609ffc4ba",
+    "rtl/tmds.v": "a0f8a26eb3b32b9b58df065c5e2970a789adffa5b9a012c49371eb7a9085cdbe",
+    "rtl/transition_control.v": "d5416a959df973c53747b3829ab913a76419df639fd62943a77ab1ddab6a9116",
+    "rtl/video_overlay.v": "aa61d5a55ff964e77ad6405f29d0a046c9bd3df970428be6a1f315900db445e6",
+    "rtl/hdmi_audio/audio_clock_regeneration_packet.sv": "6f521eb9d2c2dadcc540c21d1905ffb8a61d7e14b8869ce2886082b246c210c8",
+    "rtl/hdmi_audio/audio_info_frame.sv": "67e2b1a5a91a5411e717e563d360879be782b344b3ce511f91755b9c4b261457",
+    "rtl/hdmi_audio/audio_sample_packet.sv": "041e64727d1030dc93f7947eb11308014f99b91ebc394ccdb24fbb090706371b",
+    "rtl/hdmi_audio/auxiliary_video_information_info_frame.sv": "ad549402b46d6b824d8a2cffe35b96943add581d4d5dc266a5ea33cd161b5d99",
+    "rtl/hdmi_audio/LICENSE-APACHE": "40d8ff01192f2b3ae2817b7f42b6066aa79e3c4944d8f1285fdd43155b4b2f4e",
+    "rtl/hdmi_audio/LICENSE-MIT": "bd00da2c41ef4076b25413a06d511a096ef25004e267bcb6b7f10789cdcaa7c4",
+    "rtl/hdmi_audio/packet_assembler.sv": "b024a0749f39f4b008f13ae1915d8f68a17a4edcc9da27704a32e701cb9b7c0e",
+    "rtl/hdmi_audio/packet_picker.sv": "bd059469110b9bf689e56d8d64b2e9a70177b85e8c59bb3a50415415f326f5fb",
+    "rtl/hdmi_audio/SOURCE.md": "62332716c049b0f7c9f28d8a2d825d5aa6bdbb8493871bad296f695be8efe60a",
+    "rtl/hdmi_audio/source_product_description_info_frame.sv": "1b35d31aafda97caac8afd6335f6e62bc290ec65a8a0570f206ac7d9395c2951",
+    "rtl/sd_spi/LICENSE": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8",
+    "rtl/sd_spi/sd_spi_file_reader.v": "1879ddd13bf48a827c6e43a353f9dc51472b86aa808bb414896c74fa5b3d39bc",
+    "rtl/sd_spi/sd_spi_sector_reader.v": "4cd3a7dcbf3053bb14442e8a13115d96e30f5e611b2a75967389ccb4930968bc",
+    "rtl/sd_spi/SOURCE.md": "4c588082f62fda69febd0011a3aa0e0e17faeb0e37e4629793c57b144edcdd0d",
+    "rtl/sd_spi/spi_session.v": "d0b7820da0a3f254b3d82b30448c26d8b7fc45b08d5d607cd0e7afdb887b6c1f",
+    "rtl/vendor_sdram/sdr_as_ram.enc.v": "31f90d25e25d498215ebfcc94d13e497bb2970fd0755548f2d6a50938346d14c",
+    "rtl/vendor_sdram/sdr_init_ref.enc.v": "2a49cba48d970f4e48941356a0529c0df2fc9c1bcd13dfac7e04bf53c612212c",
+    "rtl/vendor_sdram/sdr_wrrd.enc.v": "58a518cdf05233720bf26249a258b2d08b048fa863c1905ef686bf13bf5d1711",
+    "rtl/vendor_sdram/SOURCE.md": "bb5188ff0a65e7c1f34994c562c1f6c4da7caafc7d2d108c69aeecc55c339fe5"
+  }
+}

@@ -1,0 +1,24 @@
+# HX4S20C V1.0 HDMI B. LVDS negative pads assigned automatically.
+set_pin_assignment { clk } { LOCATION = R7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { hdmi_p[0] } { LOCATION = G5; IOSTANDARD = LVDS33; }
+set_pin_assignment { hdmi_p[1] } { LOCATION = F1; IOSTANDARD = LVDS33; }
+set_pin_assignment { hdmi_p[2] } { LOCATION = E1; IOSTANDARD = LVDS33; }
+set_pin_assignment { hdmi_clk_p } { LOCATION = C3; IOSTANDARD = LVDS33; }
+set_pin_assignment { led[0] } { LOCATION = A4; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { led[1] } { LOCATION = A3; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { led[2] } { LOCATION = C10; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { led[3] } { LOCATION = B12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sd_cs } { LOCATION = A12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sd_clk } { LOCATION = A14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sd_mosi } { LOCATION = A13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sd_miso } { LOCATION = B14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { key_n[0] } { LOCATION = A2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { key_n[1] } { LOCATION = B2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { key_n[2] } { LOCATION = B1; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { key_n[3] } { LOCATION = C1; IOSTANDARD = LVCMOS33; }
+
+# HX4S20 HDL manual p18: SW1..SW4 up=1, down=0, already wired on PCB.
+set_pin_assignment { sw[0] } { LOCATION = C8; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sw[1] } { LOCATION = C7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sw[2] } { LOCATION = C6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment { sw[3] } { LOCATION = C5; IOSTANDARD = LVCMOS33; }

@@ -1,0 +1,26 @@
+RUN-1002 : start command "read_device_id -cable 0 -level 1 -total 1"
+EG4S20BG256
+RUN-1003 : finish command "read_device_id -cable 0 -level 1 -total 1" in  0.026167s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 25 MB, reserved memory is 10 MB, peak memory is 25 MB
+RUN-1002 : start command "download -bit competition_video_v20.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit competition_video_v20.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit competition_video_v20.bit" in  0.116233s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (94.1%)
+
+RUN-1004 : used memory is 46 MB, reserved memory is 31 MB, peak memory is 62 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.795557s wall, 0.093750s user + 0.000000s system = 0.093750s CPU (1.4%)
+
+RUN-1004 : used memory is 31 MB, reserved memory is 17 MB, peak memory is 62 MB
+RUN-1003 : finish command "download -bit competition_video_v20.bit -mode jtag -spd 7 -cable 0" in  6.991253s wall, 0.171875s user + 0.046875s system = 0.218750s CPU (3.1%)
+
+RUN-1004 : used memory is 31 MB, reserved memory is 18 MB, peak memory is 62 MB
+V20_SRAM_DOWNLOAD_FINISHED_FLASH_NOT_WRITTEN

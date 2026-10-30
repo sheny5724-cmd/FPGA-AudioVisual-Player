@@ -1,0 +1,20 @@
+{
+  "backup_direct_read.log": "65b3d7a8378f00a66abdd8a0f3a89bcda78ae9f6cf699b82129a32543b6e2588",
+  "backup_header_read.log": "e6ae77506c7c0058ccd5c1005ef30b74d4463ca63d4fbfb9fdaeb03c53ba8bc1",
+  "BUILD_STATUS.json": "4e1ad8eb9e8c28127ea7aaf9cea061a5a589af3d1dac7e4a5c21d021cf28bf9a",
+  "competition_recovery_v19.bin": "14b13115d07963ac94ac0460ebe8ad7435b3bfdbe2078b86baaeb1e0a7d4ad0c",
+  "competition_recovery_v19.bit": "1d2f7c106b47173ef4f207660502291c135a1c864a79cce0eaf7a9057890e46e",
+  "competition_recovery_v19_flash.svf": "a647246b856acfb9710ffc59a1e8e8171b0a9d1813fe8e85b5964b8bd9def4a5",
+  "export_bin.log": "12d7811a1253b2fa0e80ef2a5a5668055c691f9ab05755adfb05374672061cce",
+  "flash_after_v19_1792230594.bin": "14b13115d07963ac94ac0460ebe8ad7435b3bfdbe2078b86baaeb1e0a7d4ad0c",
+  "flash_program_20261017_174327.log": "4a7949b462f240658ea263c5c1abbfccbc43fcefd5459e5b891c1e7ff656de69",
+  "FLASH_STATUS.json": "6c354ba4e4beb06f40931f929fd90584ba64fec381e8656b29b2508b959b1a42",
+  "generate_svf_compat.log": "90ec52a0f2d6c312409269b8862c725871b49d34bdbcc22537d8e538187c98d2",
+  "OPTIMIZATION_PLAN.md": "f89300cd8ca49c18df42b21c4218b35b040fa224ee5d91dda21956de6db57025",
+  "PROGRAM_FLASH.ps1": "59ca47e00fc92f116a32995cf47063a85075a79529cb8d3a66bd7462b9e35a8a",
+  "program_flash.tcl": "b085d71bf94554b08f4d885803bfb82c16e9419b835216ff88f28655daf0b1aa",
+  "README.md": "422ca158db9cf1b73c7844d6e264504b14bda6e123424e7b308dbee87968d084",
+  "v19_config.txt": "c25bb6f0bf5008c6aec927f68f451c9be06a032bf07d96e2af6dcef378b6a278",
+  "backup/flash_before_v19.bin": "76cdf2cea86903cbb0e452b7d878108ae83a9deccb7176dff485942369bda967",
+  "backup/flash_header_direct.bin": "21ea8033b8fc979efd779974be331524168136c9027d26a2743dd1617b8fb213"
+}

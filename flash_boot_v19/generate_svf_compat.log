@@ -1,0 +1,4 @@
+RUN-1002 : start command "svfgen -chip EG4S20BG256 -bit C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bit -scan_mode prog_spi -svf C:/Users/ASUS/Desktop/ds/competition_work/flash_research/v19_flash_1mhz.svf -freq 1MHz -flash W25Q16JV -start_addr 000000 -level 1 -total 1 -len_mode normal -verify"
+RUN-1003 : finish command "svfgen -chip EG4S20BG256 -bit C:/Users/ASUS/Desktop/ds/competition_work/flash_boot_v19/competition_recovery_v19.bit -scan_mode prog_spi -svf C:/Users/ASUS/Desktop/ds/competition_work/flash_research/v19_flash_1mhz.svf -freq 1MHz -flash W25Q16JV -start_addr 000000 -level 1 -total 1 -len_mode normal -verify" in  0.213354s wall, 0.125000s user + 0.046875s system = 0.171875s CPU (80.6%)
+
+RUN-1004 : used memory is 27 MB, reserved memory is 11 MB, peak memory is 52 MB

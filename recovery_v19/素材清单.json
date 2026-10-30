@@ -1,0 +1,11 @@
+{
+  "images": [
+    "TF_CARD/PIC0001.BMP",
+    "TF_CARD/PIC0002.BMP",
+    "TF_CARD/PIC0003.BMP"
+  ],
+  "music": [
+    "TF_CARD/MUSIC01.FPA",
+    "TF_CARD/MUSIC02.FPA"
+  ]
+}

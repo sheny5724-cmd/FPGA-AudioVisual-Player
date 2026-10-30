@@ -1,0 +1,2 @@
+# Python 3.11/3.12 with Tkinter; install FFmpeg separately and add it to PATH.
+Pillow
